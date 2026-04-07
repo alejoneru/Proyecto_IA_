@@ -4,7 +4,7 @@ from puzzle_solver import PuzzleSolverAStar
 
 
 class GlobalSearchBFS:
-    def _init_(self, graph):
+    def __init__(self, graph):
         self.graph = graph
         self.nodes_expanded = 0
         self.max_depth = 0
